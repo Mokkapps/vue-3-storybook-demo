@@ -18,10 +18,10 @@
 </template>
 
 <script>
-import CounterOptionsApi from './components/CounterOptionsApi.vue';
-import CounterCompositionApi from './components/CounterCompositionApi.vue';
-import CounterCompositionApiv2 from './components/CounterCompositionApiv2.vue';
-import CounterCompositionApiv3 from './components/CounterCompositionApiv3.vue';
+import CounterOptionsApi from './components/CounterOptionsApi.vue'
+import CounterCompositionApi from './components/CounterCompositionApi.vue'
+import CounterCompositionApiv2 from './components/CounterCompositionApiv2.vue'
+import CounterCompositionApiv3 from './components/CounterCompositionApiv3.vue'
 
 export default {
   name: 'App',
@@ -34,19 +34,19 @@ export default {
   data: function () {
     return {
       counterValues: {},
-    };
+    }
   },
   computed: {
     counterEntries: function () {
-      return Object.entries(this.counterValues);
+      return Object.entries(this.counterValues)
     },
   },
   methods: {
     updateCounter(key, value) {
-      this.counterValues[key] = value;
+      this.counterValues[key] = value
     },
   },
-};
+}
 </script>
 
 <style>

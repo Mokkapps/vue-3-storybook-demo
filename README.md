@@ -1,3 +1,3 @@
-# vue-3-composition-api-demo-dtdyrs
+# Vite + Vue 3 + Storybook
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vue-3-composition-api-demo-dtdyrs)
+[Corresponding blog post](https://mokkapps.de/blog/document-and-test-vue-3-components-with-storybook/)

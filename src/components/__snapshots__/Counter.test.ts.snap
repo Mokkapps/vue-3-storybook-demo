@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders snapshot 1`] = `
+<div
+  data-v-app=""
+>
+  
+  <p>
+    Colored
+  </p>
+  <!-- @slot Slot to show content below label -->
+  
+  
+  <div
+    class="container colored"
+  >
+    <button>
+      +
+    </button>
+    <p
+      class="value"
+    >
+      0
+    </p>
+    <button>
+      -
+    </button>
+  </div>
+  <!-- @slot Default slot to show any content below the counter -->
+  
+  
+  
+</div>
+`;
